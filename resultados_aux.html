@@ -41,11 +41,11 @@
       <div class="summary-grid" aria-label="Resumen de resultados">
         <div class="summary-card">
           <span>Total</span>
-          <strong>0</strong>
+          <strong id="stat-total">0</strong>
         </div>
         <div class="summary-card">
           <span>Mejor tiempo</span>
-          <strong>--:--</strong>
+          <strong id="stat-best">--:--</strong>
         </div>
         <div class="summary-card">
           <span>Distancia</span>
@@ -61,8 +61,8 @@
           <h2 id="podium-title">Podio 10K</h2>
         </div>
         <span id="podium-label" class="soft-pill">10K · General</span>
-        <p> Próximamente...
       </div>
+      <div id="podium" class="podium"></div>
     </section>
 
     <section class="filters-panel reveal delay-2">
@@ -90,7 +90,24 @@
     </section>
 
     <section class="table-card reveal delay-3">
-      <p>Resultados...</p>
+      <div class="mobile-results" id="mobile-resultados"></div>
+
+      <table aria-label="Tabla de resultados">
+        <thead>
+          <tr>
+            <th>Posición</th>
+            <th>Dorsal</th>
+            <th>Nombre y apellido</th>
+            <th>Distancia</th>
+            <th>Género</th>
+            <th>Tiempo</th>
+            <th>Compartir</th>
+          </tr>
+        </thead>
+        <tbody id="tabla-resultados"></tbody>
+      </table>
+
+      <p id="sin-resultados" class="empty-message">No hay resultados para esta selección.</p>
     </section>
   </main>
 
