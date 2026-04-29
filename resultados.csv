@@ -1,7 +1,7 @@
 Nombre y apellido,distancia,genero,tiempo,dorsal
-Medalla oro M,10k,M,00:00:01,1
-Medalla plata M,10k,M,00:00:02,2
-Medalla bronce M,10k,M,00:00:03,3
+Medalla oro,10k,M,00:00:01,1
+Medalla plata,10k,M,00:00:02,2
+Medalla bronce,10k,M,00:00:03,3
 Cuarto clasificado M,10k,M,00:00:07,4
 Quinto clasificado M,10k,M,00:00:08,5
 Medalla oro F,10k,F,00:00:04,6
